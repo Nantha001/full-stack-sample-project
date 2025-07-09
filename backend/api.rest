@@ -1,0 +1,14 @@
+
+
+
+# POST http://localhost:3000/post HTTP/1.1
+# Host: localhost
+# content-type: application/json
+
+# {
+#  "name":" nantha king",
+#  "description":"This is a test post"
+# }
+
+
+GET http://localhost:3000/ HTTP/1.1
