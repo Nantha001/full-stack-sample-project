@@ -1,6 +1,6 @@
 
 
-const arr=[];
+const arr=[{name:"nantha",description:"hi i am nantha"}];
 
 const express=require("express");
 
@@ -13,13 +13,10 @@ app.use(express.json());
 
 
 app.get("/",(req,res)=>{
-if(arr.length===0){
-    res.send("Update The Information")
 
-}else{
 
     res.send(arr)
-}
+
 
 })
 
